@@ -1,12 +1,15 @@
 <html>
     <body>
         <form>
+            <fieldset>
+            <legend>Personal Information</legend>
+
             <label for="firstname">Firstname :</label><br>
-            <input type="text" id="firstname" name="firstname"><br>
+            <input type="text" id="firstname" name="firstname" value="Riga" disabled size="30" ><br>
             <label for="lastname">Lastname :</label><br>
-            <input type="text" id="lastname" name="lastname"><br>
+            <input type="text" id="lastname" name="lastname" required><br>
             <label for="email">Email :</label><br>
-            <input type="email" id="email" name="email"><br>
+            <input type="email" id="email" name="email" placeholder="email"><br>
             <label for="password">Password :</label><br>
             <input type="password" id="password" name="password"><br><br>
             <input type="submit" id="submit" name="submit"><br><br>
@@ -14,17 +17,34 @@
             <input type="radio" id="male" name="gender" value="male">
             <label for="male">Male</label><br>
             <input type="radio" id="female" name="gender" value="female">
-            <label for="female">Female</label><br>
+            <label for="female">Female</label><br><br>
             <label>Hobbies:</label><br>
             <input type="checkbox" id="football" name="football" value="football">
             <label for="football">Football</label><br>
             <input type="checkbox" id="handball" name="handball" value="handball">
             <label for="handball">Handball</label><br>
             <input type="checkbox" id="volleyball" name="volleyball" value="volleyball">
-            <label for="volleyball">Volleyball</label><br>
-            
-
-
+            <label for="volleyball">Volleyball</label><br><br>
+            <label for="pet">Choose a pet</label><br>
+            <select id="pet" name="pet">
+                <option value="Dog">Dog</option>
+                <option value="Cat">Cat</option>
+                <option value="Cow">Cow</option>
+                <option value="Parrot">Parrot</option>
+                <option value="Donkey">Donkey</option>
+            </select><br><br>
+            <label for="Message">Write a comment:</label><br>
+            <textarea name="Message" rows="10" cols="20" maxlength="1000"></textarea>
+            </fieldset>
         </form>
     </body>
-</html>
+    <!--Form ka qene nje vend ku ruhen te thenat pra ku user e qet input -->
+    <!--Fieldset e ka kufizu tere formes-->
+    <!--Legend e qitke ni titull nalt-->
+    <!--Value ia jep vleren ne input tonin -->
+    <!--readonly dhe disable  nuk e len me shkru-->
+    <!--Size ia ndryshon madhesin-->
+    <!--Maxlength ke numri i karaktereve-->
+    <!--place holder ke me kllx qka me shkru kurse require ke gjithqysh nuk te lene me bo sumbit pa me bo-->
+    <!--Radiocheck me zgjedh vetem ni opsion kurse Checkbox me zgjedh dy apo me shume-->
+    </html>
