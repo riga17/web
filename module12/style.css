@@ -1,0 +1,43 @@
+h1{
+    color: rgb(255, 211, 211);
+    letter-spacing: 20px;
+    word-spacing: 20px;
+    text-align: center;
+
+}
+
+
+h2{
+    text-decoration: overline;
+    writing-mode: horizontal-tb;
+}
+
+h3{
+    text-decoration: line-through;
+    writing-mode: vertical-rl;
+
+}
+
+
+
+@font-face {
+    font-family: "faith";
+    src: url('faith.otf');
+}
+h4{
+    text-decoration: underline;
+    font-family: "faith";
+
+}
+
+#normaltext{
+font-style: normal;
+}
+
+#italictext{
+    font-style: italic;
+}
+
+#obliquetext{
+    font-style: oblique;
+}   
