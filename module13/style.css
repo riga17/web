@@ -1,0 +1,57 @@
+/*ul{
+    list-style: square;
+    list-style-image: url("imagescopy.png");
+}
+
+ol{
+    list-style: upper-alpha;
+ ;
+}*/
+
+ul{
+    list-style-type: none;
+    padding: 0;
+    border: 2px solid plum ;
+}
+
+ul li{
+    padding: 8px 16px;
+    border-bottom: 1px solid plum;
+}
+
+ol{
+    background: rgb(171, 252, 252);
+    padding: 15px;
+
+}
+
+ol li{
+    background: #0c6fc0;
+    padding: 10px;
+    margin-left: 30px;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+td,th{
+    border: 1px solid black;
+    padding: 15px;
+
+}
+
+tbody tr:nth-child(odd){
+    background: rgb(171, 252, 252);
+}
+
+tbody tr:nth-child(even){
+    background: #0c6fc0;
+}
+
+div{
+    overflow: auto;
+    background-color: #0c6fc0;
+    width: 100px;
+    height: 100px;
+}
