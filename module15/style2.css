@@ -1,17 +1,5 @@
-Conversation opened. 1 read message.
-
-Skip to content
-Using Gmail with screen readers
-in:sent 
-2 of 33
-style2.css
-
-Riga Hyseni <rigahyseni17@gmail.com>
-Wed 25 Feb, 19:12 (5 days ago)
-to Ela
-
 body{
-    margin: 0;   
+  margin: 0;
 }
 
 *{
@@ -137,4 +125,29 @@ body{
   clear: both;
 }
 
+#vertical-menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: auto;
+  width: 25%;
+  height: 100%;
+  background-color: rgb(230, 191, 210);
+  position: fixed;
+}
 
+#vertical-menu li a {
+  display: block;
+  color:rgb(245, 245, 245);
+  padding: 14px 16px;
+  text-decoration: none;
+  text-align: center;
+}
+
+#vertical-menu li a:hover:not(.active){
+    background-color: rgb(10, 104, 141);
+}
+
+.active{
+    background-color: rgb(129, 12, 114);
+}
