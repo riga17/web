@@ -1,0 +1,39 @@
+#speedsters img{
+    transform: scale(1);
+    transition: ease-in-out .3s;
+}
+#speedsters:hover img{
+    transform: scale(1.2);
+}
+
+
+
+#shadows img{
+    filter: blur(5px);
+    transition: ease-in-out .3s;
+}
+#shadows:hover img{
+    filter: blur(0);
+}
+
+
+
+
+#hipsters img{
+    margin-left: 0;
+    transition: ease-in-out .3s;
+}
+#hipsters:hover img{
+    margin-left: 30px;
+}
+
+
+
+
+#engineers img{
+    transform: scale(1);
+    transition: ease-in-out .3s;
+}
+#engineers:hover img{
+    transform: scale(1.2);
+}

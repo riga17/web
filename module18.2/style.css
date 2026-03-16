@@ -1,0 +1,37 @@
+#translate{
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+    background-color: rgb(163, 255, 181);
+    transform: translate(20px,39px);
+}
+
+#scale{
+    height: 200px;
+    width: 200px;
+    border-radius: 5px;
+    margin: 150px;
+    padding: 10px; 
+    background-color: rgb(168, 241, 182);
+    transform: scale(2, 2);
+}
+
+#rotate{
+    height: 200px;
+    width: 200px;
+    border-radius: 5px;
+    margin: 150px;
+    padding: 10px; 
+    background-color: rgb(161, 206, 170);
+    transform: rotatex(270deg);
+}
+
+#skewx{
+    height: 200px;
+    width: 200px;
+    border-radius: 5px;
+    margin: 150px;
+    padding: 10px; 
+    background-color: rgb(161, 206, 170);
+    transform: skewx(45deg);
+}
