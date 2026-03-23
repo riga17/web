@@ -39,3 +39,71 @@
     margin: 10px;
 }
 
+.container3 {
+    display: flex;
+    background-color: rgb(112, 112, 196);
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.container3 div {
+    background-color: rgb(255, 255, 255);
+    font-size: 35px;
+    padding: 20px;
+    margin: 10px;
+    width: 40%;
+
+}
+
+.container4 {
+    display: flex;
+    background-color: rgb(112, 112, 196);
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.container4 div {
+    background-color: rgb(255, 255, 255);
+    font-size: 35px;
+    padding: 20px;
+    margin: 10px;
+    width: 40%;
+}
+/*
+.container5 {
+    display: flex;
+    background-color: rgb(112, 112, 196);
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+}
+
+.container5 div {
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 10px;
+}
+*/
+.container5 {
+    display: flex;
+    background-color: rgb(112, 112, 196);
+    flex-direction: row;
+    justify-content: flex-end;
+    height: 200px;
+}
+
+.container5 div {
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 10px;
+    height:50px;
+}
+
+.container5 div:nth-child(2) {
+    align-self: center;
+}
+
+.container5 div:nth-child(3) {
+    align-self: flex;
+}
