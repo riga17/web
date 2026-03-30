@@ -27,7 +27,7 @@ body {
 }
 
 .nav-links li {
-  color: white;
+  color: rgb(243, 238, 238);
   padding: 8px 15px;
   border-radius: 4px;
   cursor: pointer;
