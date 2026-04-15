@@ -48,6 +48,7 @@ body {
   align-items: center;
   justify-content: center;
   height: 60vh;
+  justify-content: sp;
   background: #6a2c91;
   color: white;
   text-align: center;
@@ -171,3 +172,34 @@ textarea {
   color: #1abc9c;
 }
 
+@media (min-width:600px){
+    body{
+        background-color: lightblue;
+        color:black ;
+    }
+}
+
+@media (max-width:600px){
+    .sdi{
+        background-color: rgb(213, 146, 219);
+        color:white ;
+    }
+}
+
+@media (min-width:500px) and (max-width:800px){
+    .navbar{
+        display: none;
+    }
+}
+
+@media (min-width:600px){
+    p{
+        column-count:2 ;
+    }
+}
+
+@media print{
+    body{
+        background-color: transparent;
+    }
+}
