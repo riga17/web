@@ -1,11 +1,24 @@
-*{
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f3f3f3;
     margin: 0;
-    padding: 0;
-    font-family: 'Times New Roman', Times, serif;
 }
 
-body{
-    background-color: white;
+
+.titulli {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.titulli h2 {
+    color: #2c7be5;
+    margin-bottom: 5px;
+}
+
+.titulli p {
+    color: gray;
+    font-size: 14px;
 }
 
 header{
@@ -14,6 +27,44 @@ header{
     align-items: center;
     padding: 20px 80px;
     background-color: white;
+}
+
+
+.pjesa {
+    width: 80%;
+    margin: 20px auto;
+    background: white;
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.pjesa img {
+    width: 550px;
+}
+
+.pjesaa {
+    width: 80%;
+    margin: 20px auto;
+    background: white;
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+
+.pjesaa {
+    flex-direction: row-reverse;
+}
+
+.pjesaa img {
+    width: 350px;
 }
 
 .logo{
@@ -35,31 +86,31 @@ nav a:hover{
     color: rgb(122, 197, 226);
 }
 
-.ambulance{
-    background-color: rgba(255, 255, 255, 0.945);
-    color: rgb(150, 146, 146);
-    padding: 70px;
-    display: flex;
-    justify-content: space-between;
-    margin-left: 30PX;
+.texti {
+    width: 50%;
 }
 
-.ambulance img{
-    width: 400px;
+.texti h3 {
+    color: #2c7be5;
 }
 
-.emergency{
-    background-color: rgba(255, 255, 255, 0.945);
-    color: rgb(150, 146, 146);
-    padding: 70px;
-    display: flex;
-    justify-content: space-between;
-    margin-left: 30PX;
+.texti p {
+    font-size: 14px;
+    color: #565656;
+}
+.texti1 {
+    width: 50%;
 }
 
-.emergency img{
-    width: 400px;
+.texti1 h3 {
+    color: #2c7be5;
 }
+
+.texti1 p {
+    font-size: 14px;
+    color: #565656;
+}
+
 
 .loader {
     margin: 100px;
@@ -67,12 +118,14 @@ nav a:hover{
 }
 
 .loader img {
+    align-items: center;
     display: inline-block;
-    width: 0px;
-    height: 0px;
-    border-radius: 100%;
+    width: 20px;
+    height: 20px;
     margin-right: 8px;
-    animation: bounce 8s infinite alternate;
+    border-top-left-radius: 75%;
+    border-top-right-radius: 75%;
+    animation: bounce 7s infinite alternate;
 }
 
 .loader img:nth-child(2) {
@@ -85,6 +138,18 @@ nav a:hover{
 
 .loader img:nth-child(4) {
     animation-delay: 6s;
+}
+
+.loader img:nth-child(5) {
+    animation-delay: 8s;
+}
+
+.loader img:nth-child(6) {
+    animation-delay: 10s;
+}
+
+.loader img:nth-child(7) {
+    animation-delay: 12s;
 }
 
 @keyframes bounce {

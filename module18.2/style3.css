@@ -24,6 +24,7 @@
     animation-delay: 6s;
 }
 
+
 @keyframes bounce {
     to {
         width: 150px;
