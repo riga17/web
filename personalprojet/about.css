@@ -39,7 +39,7 @@ header{
     align-items: center;
     justify-content: space-between;
     border-radius: 8px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+
 }
 
 .pjesa img {
@@ -55,7 +55,6 @@ header{
     align-items: center;
     justify-content: space-between;
     border-radius: 8px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 
 
@@ -114,7 +113,6 @@ nav a:hover{
 
 .loader {
     margin: 100px;
-
 }
 
 .loader img {

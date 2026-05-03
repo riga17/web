@@ -1,0 +1,51 @@
+    body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+}
+
+    header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 80px;
+    background-color: white;
+}
+
+.logo{
+    font-size: 35px;
+    font-weight: bold;
+    color: rgb(122, 197, 226);
+}
+
+nav a{
+    margin-left: 25px;
+    text-decoration: none;
+    color: rgb(150, 146, 146);
+    font-size: 23px;
+
+
+}
+
+nav a:hover{
+    color: rgb(122, 197, 226);
+}
+
+
+h2 {
+    color: #323232;
+}
+
+.doctor {
+    border: 1px solid #e1dede;
+    padding: 16px;
+    margin-bottom: 16px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.image{
+    float: right;
+    margin: -170px 15px 15px 0;
+}

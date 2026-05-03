@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>E-Health Appointment</title>
+    <link rel="stylesheet" href="appointments.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">Doctors Care</div>
+        <nav>
+            <a href="indeks.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="doctors.html">Doctors</a>
+            <a href="appointments.html">Appointments</a>
+        </nav>
+    </header>
+    <h1>Appointments</h1>
+    <form>
+        <label>First Name:</label>
+        <input type="text" name="firstname" required>
+
+        <label>Last Name:</label>
+        <input type="text" name="lastname" required>
+
+        <label>Email:</label>
+        <input type="email" name="email" placeholder="example@email.com" required>
+
+        <label>Department:</label>
+        <select>
+            <option>General Medicine</option>
+            <option>Dentist</option>
+            <option>Dermatology</option>
+            <option>Cardiology</option>
+        </select>
+
+        <label>Doctor:</label>
+        <select>
+            <option>Dr. John Doe</option>
+            <option>Dr. Jane Smith</option>
+            <option>Dr Myles. B. Abbott</option>
+            <option>Dr Arthur Reese Abright</option>
+            <option>Dr Mona. M. Abaza</option>
+        </select>
+
+        <label>Appointment Date:</label>
+        <input type="date" required>
+
+        <label>Appointment Time:</label>
+        <input type="time" required>
+
+        <label>Gender:</label>
+        <div class="gender">
+            <input type="radio" name="gender"> Male
+            <input type="radio" name="gender"> Female
+        </div>
+
+        <label>Notes:</label>
+        <textarea rows="4" maxlength="500"></textarea>
+
+        <input type="submit" value="Book Appointment">
+    </form>
+
+    <table>
+        <tr>
+            <th>Patient</th>
+            <th>Doctor</th>
+            <th>Department</th>
+            <th>Date</th>
+            <th>Time</th>
+        </tr>
+         <tr class="sdi">
+            <th>Nina</th>
+            <th>Krasniqi</th>
+            <th>Dermatology</th>
+            <th>04/05/2029</th>
+            <th>16:30 PM</th>
+        </tr>
+
+    </table>
+
+</body>
+</html>
