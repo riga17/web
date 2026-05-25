@@ -1,5 +1,4 @@
 var programmingL = ['Java','Html','Python'];
-
 console.log(programmingL);
 
 console.log(programmingL[1]);
@@ -20,7 +19,7 @@ console.log(Math.random()*100);
 console.log(Math.floor()*100);
 
 var students=["Darisin","Donartin"]
-var [s1.,s2] = students;
+var [s1,s2] = students;
 
 console.log(s1);
 
