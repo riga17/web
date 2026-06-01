@@ -20,8 +20,10 @@ function showvurrenTimr(){
 
     var clocktime=hours + ":"+minutes+ ":" +seconds+ ":"+ meridian;
     clock.innerHTML=clocktime;
-    //NA DUHET ME THIRR FUNKSION QE E NDRON FOTON
+    changeImage();
 }
+var onesecond=1000;7
+setInterval(showvurrenTimr,onesecond)
 
 function changeImage(){
 
@@ -35,11 +37,28 @@ function changeImage(){
         image="img/morning.png";
         console.log("morning");
     }else if(time==dstime){
-        image"img/class.gif";
+        image="img/class.gif";
     
     }else if(time==sleeptimetime){
-        image"img/night.gif";
-    
+        image="img/night.gif";
+
     }
+
+    imageHTML.src=image;
+    console.log(imageHTML.src);
     
 }
+
+function updateclock(){
+    var wakeuptime=document.getElementById('wakeUpTimeSelector');
+    wakeuptime=wakeuptime.value;
+
+    var dstime=document.getElementById('dsTimeSelector');
+    dstime=dstime.value;
+
+    var sleeptime=document.getElementById('sleepTimeSelector');
+    sleeptime=sleeptime.value;
+}
+
+var savebutton=document.getElementById('saveButton');
+savebutton.addEventListener("click",updateclock);
