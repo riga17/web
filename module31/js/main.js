@@ -25,3 +25,47 @@ while(y<4){
 for(b=0;b<5;b++){
     console.log("vlera b eshte:" + b)
 }
+
+//for - {in}
+
+var person = {firstname: "John", lastname:"Doe", age:"25"}
+
+var text = '';
+
+var z;
+
+for(z in person) {
+    text += person[z];
+
+}
+
+// 1 --> John
+// 2 --> John Doe
+// 3 --> JohnDoe25
+
+
+console.log(text);
+console.log("-----------------------")
+
+// for - {of}
+
+var names = ['steve','bill','mark'];
+
+var y;
+
+for(y of names){
+    console.log(y)
+}
+console.log("-----------------------");
+
+
+//in zakonisht perdoret kur dojna me kthy numra 
+
+var txt = "Javascript";
+
+var b;
+
+for(b of txt){
+    console.log(b)
+}
+console.log("-----------------------");
