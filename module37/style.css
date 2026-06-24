@@ -1,0 +1,10 @@
+#sort{
+    width: 80%;
+    margin: 20px auto;
+    background: rgb(72, 120, 209);
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 8px;
+}
